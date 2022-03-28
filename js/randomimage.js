@@ -9,6 +9,10 @@ function changeImage() {
     
     let randomIndex = Math.floor(Math.random() * images.length);
     console.log(randomIndex);
-    image.src = "images/" + [randomIndex];
+    image.src = "images/" + images.at (randomIndex) 
 }
+
+
+//image.src = "images/palace" + [randomIndex] + ".jpg";
+
 
